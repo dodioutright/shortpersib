@@ -41,7 +41,7 @@ export default defineNuxtConfig({
       prerender: true,
     },
     '/dashboard/**': {
-      prerender: true,
+      prerender: false,
       ssr: false,
     },
     '/dashboard': {
